@@ -1,10 +1,9 @@
 # Convertidor Mp3 Angular/Python
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Como proyecto personal y mi necesidad de descargarmuscia en una biblioteca web sin anuncios desarrolle este convertidor mp3 que almcena mis canciones de manera automatica descargandolas de yotube y almacenndola en una base de datos externa asi acceder a la lista de reproduccion en linea
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Home
+En este apartado de la pagina se puede descargar la musica con la url de youtube
 
 ## Code scaffolding
 
