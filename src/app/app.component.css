@@ -1,0 +1,38 @@
+.gradient-background {
+  background: linear-gradient(304deg,#302f2f,#000000,#212121);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+video {
+    width: 80%; /* Ocupa el ancho completo del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente */
+    display: block; /* Asegura que el reproductor de video se muestra como un bloque */
+  }
+
+  .card-cover {
+    height: 300px; /* Altura deseada para las tarjetas */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Opacidad inicial */
+    transition: opacity 0.3s ease; /* Transición suave de la opacidad */
+  
+    /* Estilos adicionales para mejorar la apariencia */
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card-cover:hover {
+    opacity: 1; /* Opacidad completa al pasar el puntero */
+  }
